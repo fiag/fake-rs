@@ -71,5 +71,8 @@ pub trait Data {
 mod en;
 pub use self::en::EN;
 
+mod zh_cn;
+pub use self::zh_cn::ZH_CN;
+
 mod zh_tw;
 pub use self::zh_tw::ZH_TW;
